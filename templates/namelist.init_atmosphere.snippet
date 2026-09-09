@@ -1,0 +1,10 @@
+! Trecho do namelist.init_atmosphere para usar o intermediario ECMWF (open data)
+&dimensions
+    config_nfglevels = 15        ! 14 niveis de pressao (1000-10 hPa) + superficie
+    config_nfgsoillevels = 4
+/
+&data_sources
+    config_met_prefix = 'ECMWF'
+    config_fg_interval = 21600
+    config_use_spechumd = false  ! umidade vem como RH
+/

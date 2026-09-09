@@ -1,0 +1,12 @@
+data/
+*.grib
+*.grib1
+*.grib2
+*.index
+ECMWF:*
+FILE:*
+PFILE:*
+GRIBFILE.*
+ungrib.log*
+ungrib.stdout
+__pycache__/

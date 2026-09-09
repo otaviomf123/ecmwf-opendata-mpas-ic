@@ -1,0 +1,14 @@
+&share
+ wrf_core = 'ARW',
+ max_dom = 1,
+ start_date = '@DATE@',
+ end_date   = '@DATE@',
+ interval_seconds = 21600,
+/
+&ungrib
+ out_format = 'WPS',
+ prefix = 'ECMWF',
+/
+&metgrid
+ fg_name = 'ECMWF'
+/
