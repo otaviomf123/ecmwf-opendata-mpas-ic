@@ -10,3 +10,4 @@ GRIBFILE.*
 ungrib.log*
 ungrib.stdout
 __pycache__/
+*.part
