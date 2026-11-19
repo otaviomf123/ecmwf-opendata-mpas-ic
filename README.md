@@ -20,8 +20,12 @@ stl1-4/swvl1-4 (139/170/183/236 e 39-42, tipo de nivel 112, camadas
 
 ## Como usar
 
-Precisa de WPS compilado, eccodes com python (grib_set e import eccodes, que ja
-traz numpy) e curl.
+## Requisitos
+
+- WPS compilado (ungrib.exe), apontado por WPS_DIR
+- eccodes com a interface python (grib_set e import eccodes) e numpy;
+  ECCODES_BIN aponta para o bin do ambiente
+- curl
 
 ```
 export WPS_DIR=/caminho/do/WPS
